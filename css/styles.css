@@ -1,7 +1,16 @@
 body{
-    padding: 0;
-    margin: 0;
+
     background-color: cadetblue;
+}
+.container{
+    width: 960px;
+    background-color: white;
+    margin: auto;
+}
+div{
+    display: block;
+    
+    
 }
 footer{
     position: fixed;
@@ -20,7 +29,7 @@ nav{
     background:    #95c1e9;
     background:    -webkit-linear-gradient(#95c1e9, #4287c6);
     background:    linear-gradient(#95c1e9, #4287c6);
-    font:          normal 400 20px/1 "Overlock", cursive;;
+    font:          normal 400 17px/1 "Overlock", cursive;;
     padding: 0;
 }
 nav li{
@@ -32,10 +41,10 @@ nav ul{
     display: inline;
 }
 nav a{
-    width: 100px;
+    width:         80px;
     border:        0;
     text-decoration: none;
-    padding:       8px 10px;
+    padding:       6px 10px;
     color:         #ffffff;
     display:       inline-block;
     text-align:    center;
@@ -45,35 +54,33 @@ nav a:hover{
     background:    #035192;
     background:    -webkit-linear-gradient(#035192, #4287c6);
     background:    linear-gradient(#035192, #4287c6);
-    border:       0;
-    padding:       8px 10px;
-    color:         #ffffff;
-    display:       inline-block;
-    text-align:    center;
     text-shadow:   1px 1px #000000;
 }
 form{
     display: inline;
     color:         #ffffff;
-    font:          normal 400 20px/1 "Overlock", cursive;;
+    font:          normal 400 17px/1 "Overlock", cursive;;
     text-shadow:   1px 1px #000000;
 }
-#submit {
+form #submit {
     background:    #95c1e9;
     background:    -webkit-linear-gradient(#95c1e9, #4287c6);
     background:    linear-gradient(#95c1e9, #4287c6);
-    border: 0;
-    width: 150px;
+    border:        0;
+    width:         120px;
     text-decoration: none;
     border-radius: 5px;
     padding:       8px 5px;
     color:         #ffffff;
     display:       inline-block;
-    font:          normal 400 20px/1 "Overlock", cursive;;
+    font:          normal 400 17px/1 "Overlock", cursive;
     text-align:    center;
     text-shadow:   1px 1px #000000;
-}#submit:hover{
+}form #submit:hover{
     background:    #035192;
     background:    -webkit-linear-gradient(#035192, #4287c6);
     background:    linear-gradient(#035192, #4287c6);
+}
+input{
+    width: 100px;
 }
